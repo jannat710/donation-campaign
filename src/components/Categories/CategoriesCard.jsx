@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const CategoriesCard = ({category}) => {
@@ -14,6 +15,7 @@ backgroundColor :category_bg,
 
     return (
         <div className="p-5 md:p-10 lg:p-0">
+            <Link to={`/categories/${id}`}>
             <div className=" w-full mx-auto bg-base-100 shadow-xl " style={cardStyle}>
                 <figure className="pb-5">
                     <img  src={picture} className="w-full mx-auto" />
@@ -23,6 +25,7 @@ backgroundColor :category_bg,
                     <h2 className="text-xl font-semibold py-2">{title}</h2>
                 </div>
             </div>
+            </Link>
         </div>
     );
 };
