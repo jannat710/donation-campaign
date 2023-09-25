@@ -1,0 +1,134 @@
+[
+    {
+        "id": "1",
+        "picture": "https://i.ibb.co/F6wyZ6W/Health.png",
+        "title": "Clean water for children",
+        "category_name": "Health",
+        "category_bg": "#0052ff33",
+        "card_bg": "#0052ff26",
+        "text_color_and_button_bg": "#0052FF",
+        "description": "Clean water is essential for children's health and well-being. It helps prevent waterborne diseases and ensures proper hydration. Access to clean water can be achieved through filtration systems, wells, and water treatment plants. It is crucial to prioritize clean water initiatives to protect children's lives and future.",
+        "price": "$19.99"
+    },
+    {
+        "id": "2",
+        "picture": "https://i.ibb.co/1zcdJmy/Education.png",
+        "title": "Good education",
+        "category_name": "Education",
+        "category_bg": "#f8714733",
+        "card_bg": "#ff444a26",
+        "text_color_and_button_bg": "#FF444A",
+        "description": "Good education is crucial for personal and societal development. It equips individuals with knowledge, skills, and critical thinking abilities. It fosters creativity, empathy, and a thirst for lifelong learning. Quality teachers, inclusive environments, and relevant curriculum are key components.",
+        "price": "$24.99"
+    },
+    {
+        "id": "3",
+        "picture": "https://i.ibb.co/5r46FBH/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category_name": "Clothing",
+        "category_bg": "#79c23f33",
+        "card_bg": "#79c23f26",
+        "text_color_and_button_bg": "#79C23F",
+        "description": "A Used Clothing Drive is an initiative where people donate their gently used clothes to be redistributed to those in need. It helps reduce waste and supports communities. To find more information or local drives, search online or check with local charitable organizations and community centers.",
+        "price": "$14.99"
+    },
+    {
+        "id": "4",
+        "picture": "https://i.ibb.co/Dr8RNtt/Food.png",
+        "title": "Better Food for Everyone",
+        "category_name": "Food",
+        "category_bg": "#f8714733",
+        "card_bg": "#f8714726",
+        "text_color_and_button_bg": "#F87147",
+        "description": "Better Food for Everyone aims to improve global food systems, focusing on sustainability, nutrition, and accessibility. It promotes diverse and balanced diets, reduces food waste, supports local agriculture, and advocates for policy changes. Unfortunately, as an AI text model, I cannot provide direct links. However, you can search for related information on reputable websites or refer to organizations like the Food and Agriculture Organization (FAO) or World Food Programme (WFP).",
+        "price": "$29.99"
+    },
+    {
+        "id": "5",
+        "picture": "https://i.ibb.co/Dr8RNtt/Food.png",
+        "title": "Better Food for Everyone",
+        "category_name": "Food",
+        "category_bg": "#f8714733",
+        "card_bg": "#f8714726",
+        "text_color_and_button_bg": "#F87147",
+        "description": "Better Food for Everyone aims to improve global food systems, focusing on sustainability, nutrition, and accessibility. It promotes diverse and balanced diets, reduces food waste, supports local agriculture, and advocates for policy changes. Unfortunately, as an AI text model, I cannot provide direct links. However, you can search for related information on reputable websites or refer to organizations like the Food and Agriculture Organization (FAO) or World Food Programme (WFP).",
+        "price": "$29.99"
+    },
+    {
+        "id": "6",
+        "picture": "https://i.ibb.co/5r46FBH/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category_name": "Clothing",
+        "category_bg": "#79c23f33",
+        "card_bg": "#79c23f26",
+        "text_color_and_button_bg": "#79C23F",
+        "description": "A Used Clothing Drive is an initiative where people donate their gently used clothes to be redistributed to those in need. It helps reduce waste and supports communities. To find more information or local drives, search online or check with local charitable organizations and community centers.",
+        "price": "$14.99"
+    },
+    {
+        "id": "7",
+        "picture": "https://i.ibb.co/1zcdJmy/Education.png",
+        "title": "Good education",
+        "category_name": "Education",
+        "category_bg": "#f8714733",
+        "card_bg": "#ff444a26",
+        "text_color_and_button_bg": "#FF444A",
+        "description": "Good education is crucial for personal and societal development. It equips individuals with knowledge, skills, and critical thinking abilities. It fosters creativity, empathy, and a thirst for lifelong learning. Quality teachers, inclusive environments, and relevant curriculum are key components.",
+        "price": "$24.99"
+    },
+    {
+        "id": "8",
+        "picture": "https://i.ibb.co/F6wyZ6W/Health.png",
+        "title": "Clean water for children",
+        "category_name": "Health",
+        "category_bg": "#0052ff33",
+        "card_bg": "#0052ff26",
+        "text_color_and_button_bg": "#0052FF",
+        "description": "Clean water is essential for children's health and well-being. It helps prevent waterborne diseases and ensures proper hydration. Access to clean water can be achieved through filtration systems, wells, and water treatment plants. It is crucial to prioritize clean water initiatives to protect children's lives and future.",
+        "price": "$19.99"
+    },
+    {
+        "id": "9",
+        "picture": "https://i.ibb.co/F6wyZ6W/Health.png",
+        "title": "Clean water for children",
+        "category_name": "Health",
+        "category_bg": "#0052ff33",
+        "card_bg": "#0052ff26",
+        "text_color_and_button_bg": "#0052FF",
+        "description": "Clean water is essential for children's health and well-being. It helps prevent waterborne diseases and ensures proper hydration. Access to clean water can be achieved through filtration systems, wells, and water treatment plants. It is crucial to prioritize clean water initiatives to protect children's lives and future.",
+        "price": "$19.99"
+    },
+    {
+        "id": "10",
+        "picture": "https://i.ibb.co/1zcdJmy/Education.png",
+        "title": "Good education",
+        "category_name": "Education",
+        "category_bg": "#f8714733",
+        "card_bg": "#ff444a26",
+        "text_color_and_button_bg": "#FF444A",
+        "description": "Good education is crucial for personal and societal development. It equips individuals with knowledge, skills, and critical thinking abilities. It fosters creativity, empathy, and a thirst for lifelong learning. Quality teachers, inclusive environments, and relevant curriculum are key components.",
+        "price": "$24.99"
+    },
+    {
+        "id": "11",
+        "picture": "https://i.ibb.co/5r46FBH/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category_name": "Clothing",
+        "category_bg": "#79c23f33",
+        "card_bg": "#79c23f26",
+        "text_color_and_button_bg": "#79C23F",
+        "description": "A Used Clothing Drive is an initiative where people donate their gently used clothes to be redistributed to those in need. It helps reduce waste and supports communities. To find more information or local drives, search online or check with local charitable organizations and community centers.",
+        "price": "$14.99"
+    },
+    {
+        "id": "12",
+        "picture": "https://i.ibb.co/Dr8RNtt/Food.png",
+        "title": "Better Food for Everyone",
+        "category_name": "Food",
+        "category_bg": "#f8714733",
+        "card_bg": "#f8714726",
+        "text_color_and_button_bg": "#F87147",
+        "description": "Better Food for Everyone aims to improve global food systems, focusing on sustainability, nutrition, and accessibility. It promotes diverse and balanced diets, reduces food waste, supports local agriculture, and advocates for policy changes. Unfortunately, as an AI text model, I cannot provide direct links. However, you can search for related information on reputable websites or refer to organizations like the Food and Agriculture Organization (FAO) or World Food Programme (WFP).",
+        "price": "$29.99"
+    }
+]
