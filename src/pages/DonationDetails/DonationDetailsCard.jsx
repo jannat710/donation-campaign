@@ -1,18 +1,42 @@
 import Swal from 'sweetalert2'
 
 const DonationDetailsCard = ({ category }) => {
-    const { id, picture, title, category_name, category_bg, text_color_and_button_bg, card_bg, description, price } = category || {}
+    const { id, picture, title,text_color_and_button_bg,description, price } = category || {}
     const buttonStyle={
         backgroundColor :text_color_and_button_bg,
         };
 
      const buttonClick=()=>{
-        Swal.fire(
+        const addDonation=[];
+        const donationItem = JSON.parse(localStorage.getItem('donation'))
+        if (!donationItem){
+            addDonation.push(category)
+            localStorage.setItem('donation',JSON.stringify(addDonation))
+            Swal.fire(
             'Good job!',
             'Successfully Donated!',
             'success'
           )
+        }
+        else{
+            const isExists= donationItem.find(category=>category.id===id)
+            if(!isExists){
+                addDonation.push(...donationItem,category)
+                localStorage.setItem('donation',JSON.stringify(addDonation))
+                Swal.fire(
+            'Good job!',
+            'Successfully Donated!',
+            'success'
+          )
+            }
+            else{
+                Swal.fire(
+                    'Error!',
+                    'error'
+                  )
+            }
 
+        }
      };   
     return (
         <div>
