@@ -13,7 +13,7 @@ const DonationCard = ({ category }) => {
         backgroundColor: text_color_and_button_bg,
     };
     return (
-        <div>
+        <div className="py-10">
             <div className="rounded-lg flex justify-center items-center bg-base-100 shadow-xl w-full mx-auto h-72" style={cardStyle}>
                 <figure className=''>
                     <img className='h-72' src={picture} alt="" />
