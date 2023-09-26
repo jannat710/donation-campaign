@@ -15,7 +15,7 @@ backgroundColor :category_bg,
 
     return (
         <div className="p-5 md:p-10 lg:p-0">
-            <Link to={`/categories/${id}`}>
+            <Link to={`/donation-details/${id}`}>
             <div className=" w-full mx-auto bg-base-100 shadow-xl " style={cardStyle}>
                 <figure className="pb-5">
                     <img  src={picture} className="w-full mx-auto" />

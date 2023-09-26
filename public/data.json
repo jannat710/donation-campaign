@@ -8,7 +8,7 @@
         "card_bg": "#0052ff26",
         "text_color_and_button_bg": "#0052FF",
         "description": "Clean water is essential for children's health and well-being. It helps prevent waterborne diseases and ensures proper hydration. Access to clean water can be achieved through filtration systems, wells, and water treatment plants. It is crucial to prioritize clean water initiatives to protect children's lives and future.",
-        "price": "$19.99"
+        "price": "$190.99"
     },
     {
         "id": "2",
@@ -19,7 +19,7 @@
         "card_bg": "#ff444a26",
         "text_color_and_button_bg": "#FF444A",
         "description": "Good education is crucial for personal and societal development. It equips individuals with knowledge, skills, and critical thinking abilities. It fosters creativity, empathy, and a thirst for lifelong learning. Quality teachers, inclusive environments, and relevant curriculum are key components.",
-        "price": "$24.99"
+        "price": "$240.99"
     },
     {
         "id": "3",
@@ -30,7 +30,7 @@
         "card_bg": "#79c23f26",
         "text_color_and_button_bg": "#79C23F",
         "description": "A Used Clothing Drive is an initiative where people donate their gently used clothes to be redistributed to those in need. It helps reduce waste and supports communities. To find more information or local drives, search online or check with local charitable organizations and community centers.",
-        "price": "$14.99"
+        "price": "$214.99"
     },
     {
         "id": "4",
@@ -41,7 +41,7 @@
         "card_bg": "#f8714726",
         "text_color_and_button_bg": "#F87147",
         "description": "Better Food for Everyone aims to improve global food systems, focusing on sustainability, nutrition, and accessibility. It promotes diverse and balanced diets, reduces food waste, supports local agriculture, and advocates for policy changes. Unfortunately, as an AI text model, I cannot provide direct links. However, you can search for related information on reputable websites or refer to organizations like the Food and Agriculture Organization (FAO) or World Food Programme (WFP).",
-        "price": "$29.99"
+        "price": "$229.99"
     },
     {
         "id": "5",
@@ -52,7 +52,7 @@
         "card_bg": "#f8714726",
         "text_color_and_button_bg": "#F87147",
         "description": "Better Food for Everyone aims to improve global food systems, focusing on sustainability, nutrition, and accessibility. It promotes diverse and balanced diets, reduces food waste, supports local agriculture, and advocates for policy changes. Unfortunately, as an AI text model, I cannot provide direct links. However, you can search for related information on reputable websites or refer to organizations like the Food and Agriculture Organization (FAO) or World Food Programme (WFP).",
-        "price": "$29.99"
+        "price": "$229.99"
     },
     {
         "id": "6",
@@ -63,7 +63,7 @@
         "card_bg": "#79c23f26",
         "text_color_and_button_bg": "#79C23F",
         "description": "A Used Clothing Drive is an initiative where people donate their gently used clothes to be redistributed to those in need. It helps reduce waste and supports communities. To find more information or local drives, search online or check with local charitable organizations and community centers.",
-        "price": "$14.99"
+        "price": "$214.99"
     },
     {
         "id": "7",
@@ -74,7 +74,7 @@
         "card_bg": "#ff444a26",
         "text_color_and_button_bg": "#FF444A",
         "description": "Good education is crucial for personal and societal development. It equips individuals with knowledge, skills, and critical thinking abilities. It fosters creativity, empathy, and a thirst for lifelong learning. Quality teachers, inclusive environments, and relevant curriculum are key components.",
-        "price": "$24.99"
+        "price": "$240.99"
     },
     {
         "id": "8",
@@ -85,7 +85,7 @@
         "card_bg": "#0052ff26",
         "text_color_and_button_bg": "#0052FF",
         "description": "Clean water is essential for children's health and well-being. It helps prevent waterborne diseases and ensures proper hydration. Access to clean water can be achieved through filtration systems, wells, and water treatment plants. It is crucial to prioritize clean water initiatives to protect children's lives and future.",
-        "price": "$19.99"
+        "price": "$190.99"
     },
     {
         "id": "9",
@@ -96,7 +96,7 @@
         "card_bg": "#0052ff26",
         "text_color_and_button_bg": "#0052FF",
         "description": "Clean water is essential for children's health and well-being. It helps prevent waterborne diseases and ensures proper hydration. Access to clean water can be achieved through filtration systems, wells, and water treatment plants. It is crucial to prioritize clean water initiatives to protect children's lives and future.",
-        "price": "$19.99"
+        "price": "$190.99"
     },
     {
         "id": "10",
@@ -107,7 +107,7 @@
         "card_bg": "#ff444a26",
         "text_color_and_button_bg": "#FF444A",
         "description": "Good education is crucial for personal and societal development. It equips individuals with knowledge, skills, and critical thinking abilities. It fosters creativity, empathy, and a thirst for lifelong learning. Quality teachers, inclusive environments, and relevant curriculum are key components.",
-        "price": "$24.99"
+        "price": "$240.99"
     },
     {
         "id": "11",
@@ -118,7 +118,7 @@
         "card_bg": "#79c23f26",
         "text_color_and_button_bg": "#79C23F",
         "description": "A Used Clothing Drive is an initiative where people donate their gently used clothes to be redistributed to those in need. It helps reduce waste and supports communities. To find more information or local drives, search online or check with local charitable organizations and community centers.",
-        "price": "$14.99"
+        "price": "$214.99"
     },
     {
         "id": "12",
@@ -129,6 +129,6 @@
         "card_bg": "#f8714726",
         "text_color_and_button_bg": "#F87147",
         "description": "Better Food for Everyone aims to improve global food systems, focusing on sustainability, nutrition, and accessibility. It promotes diverse and balanced diets, reduces food waste, supports local agriculture, and advocates for policy changes. Unfortunately, as an AI text model, I cannot provide direct links. However, you can search for related information on reputable websites or refer to organizations like the Food and Agriculture Organization (FAO) or World Food Programme (WFP).",
-        "price": "$29.99"
+        "price": "$229.99"
     }
 ]
