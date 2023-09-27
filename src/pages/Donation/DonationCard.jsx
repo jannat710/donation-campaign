@@ -1,4 +1,5 @@
-
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 
 const DonationCard = ({ category }) => {
     const { id, picture, title, category_name, category_bg, text_color_and_button_bg, card_bg, price } = category || {}
@@ -13,7 +14,7 @@ const DonationCard = ({ category }) => {
         backgroundColor: text_color_and_button_bg,
     };
     return (
-        <div className="py-10">
+        <div className="py-5 md:py-5 lg:py-10  p-5 md:p-5 lg:p-0">
             <div className="rounded-lg flex justify-center items-center bg-base-100 shadow-xl w-full mx-auto h-72" style={cardStyle}>
                 <figure className=''>
                     <img className='h-72 w-64' src={picture} alt="" />

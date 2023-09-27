@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import DonationCard from "./DonationCard";
 
-
 const Donation = () => {
     const [donation, setDonation] = useState([])
     const [noFound, setNoFound] = useState(false)
@@ -30,7 +29,6 @@ const Donation = () => {
                         {
                             seeAll ? donation.map((category) => (<DonationCard key={category.id} category={category}></DonationCard>)) :
                                 donation.slice(0, 4).map((category) => (<DonationCard key={category.id} category={category}></DonationCard>))
-                            // donation.map((category)=>(<DonationCard key={category.id} category={category}></DonationCard>))
                         }
                     </div>
                     {

@@ -4,20 +4,16 @@ import DonationDetailsCard from "./DonationDetailsCard";
 
 
 const DonationDetails = () => {
-    const [category,setCategory]=useState({})
-    const {id} = useParams()
-
-
+    const [category, setCategory] = useState({})
+    const { id } = useParams()
     const categories = useLoaderData()
-
-    useEffect(()=>{
-        const findCategory=categories?.find(category=>category.id===id)
+    useEffect(() => {
+        const findCategory = categories?.find(category => category.id === id)
         setCategory(findCategory)
-
-    },[id,categories])
+    }, [id, categories])
     return (
         <div>
-<DonationDetailsCard category={category}></DonationDetailsCard>
+            <DonationDetailsCard category={category}></DonationDetailsCard>
         </div>
     );
 };

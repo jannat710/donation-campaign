@@ -1,12 +1,12 @@
 import { Cell, Label, Pie, PieChart } from "recharts";
 const Statistics = () => {
-    const donationItem = JSON.parse(localStorage.getItem('donation'))
-    console.log(donationItem.length)
+    const donationItem = JSON.parse(localStorage.getItem('donation')) || [];
+    // console.log(donationItem.length)
 
     const yourDonation = (donationItem.length / 12) * 100;
     const totalDonation = 100 - yourDonation;
-    console.log(yourDonation)
-    console.log(totalDonation)
+    // console.log(yourDonation)
+    // console.log(totalDonation)
     const data = [
         { name: 'Your Donation', value: yourDonation },
         { name: 'Total Donation', value: totalDonation },
@@ -40,14 +40,14 @@ const Statistics = () => {
                         />
                     </Pie>
                 </PieChart>
-                <div className="w-full mx-auto flex justify-center items-center gap-3">
-                    <div className="flex justify-center items-center gap-3">
+                <div className="w-full mx-auto flex justify-center items-center gap-6">
+                    <div className="flex justify-center items-center gap-2">
                         <p>Your Donation</p>
-                        <div className="w-10 h-2 bg-[#00C49F]"></div>
+                        <div className="w-10 h-2 rounded-xl bg-[#00C49F]"></div>
                     </div>
-                    <div className="flex justify-center items-center gap-3">
+                    <div className="flex justify-center items-center gap-2">
                         <p>Total Donation</p>
-                        <div className="w-10 h-2 bg-[#FF444A]"></div>
+                        <div className="w-10 h-2 rounded-xl bg-[#FF444A]"></div>
                     </div>
                 </div>
             </div>
