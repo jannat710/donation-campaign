@@ -25,7 +25,7 @@ const Donation = () => {
         <div>
             {
                 noFound ? <p className="flex justify-center items-center">{noFound}</p> : <div>
-                    {donation.length > 0 && <button onClick={removeItem} className="px-4 py-2 rounded-md text-white normal-case bg-[#009444] block mx-auto ">Delete All</button>}
+                    {donation.length > 0 && <button onClick={removeItem} className=" rounded-md text-white normal-case bg-[#009444] block mx-auto ">Delete All</button>}
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
                         {
                             seeAll ? donation.map((category) => (<DonationCard key={category.id} category={category}></DonationCard>)) :
@@ -35,7 +35,7 @@ const Donation = () => {
                     </div>
                     {
                         donation.length > 4 && (
-                            <button onClick={() => setSeeAll(!seeAll)} className="px-4 py-2 rounded-md bg-[#009444] block mx-auto text-white normal-case" >{seeAll ? '' : "See All"}</button>
+                            <button onClick={() => setSeeAll(!seeAll)} className=" rounded-md bg-[#009444] block mx-auto text-white normal-case" >{seeAll ? '' : "See All"}</button>
                         )
                     }
                 </div>

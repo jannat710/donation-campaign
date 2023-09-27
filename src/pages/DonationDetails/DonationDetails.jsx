@@ -17,9 +17,7 @@ const DonationDetails = () => {
     },[id,categories])
     return (
         <div>
-<DonationDetailsCard category={category}>
-
-</DonationDetailsCard>
+<DonationDetailsCard category={category}></DonationDetailsCard>
         </div>
     );
 };

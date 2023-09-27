@@ -16,7 +16,7 @@ const DonationCard = ({ category }) => {
         <div className="py-10">
             <div className="rounded-lg flex justify-center items-center bg-base-100 shadow-xl w-full mx-auto h-72" style={cardStyle}>
                 <figure className=''>
-                    <img className='h-72' src={picture} alt="" />
+                    <img className='h-72 w-64' src={picture} alt="" />
                 </figure>
                 <div className="card-body justify-start items-start">
                     <button className="rounded-md text-sm font-medium py-1 px-2" style={buttonStyle}>{category_name}</button>
