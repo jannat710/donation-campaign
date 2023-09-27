@@ -13,13 +13,13 @@ const Donation = () => {
         }
         else {
 
-            setNoFound('No Donation')
+            setNoFound('No Donation Available')
         }
     }, [])
     const removeItem = () => {
         localStorage.clear()
         setDonation([])
-        setNoFound('No Donation');
+        setNoFound('No Donation Available');
     }
     return (
         <div>

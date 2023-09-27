@@ -16,7 +16,7 @@ const Statistics = () => {
         <div>
             <div className="container mx-auto">
                 <PieChart className="w-full mx-auto" width={400} height={400}>
-                    <Pie data={data} dataKey="value" cx="" cy="">
+                    <Pie data={data} dataKey="value" cx="50%" cy="50%" outerRadius={80}>
                         {
                             data.map((entry, index) => (
                                 <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
